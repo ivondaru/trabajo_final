@@ -1,0 +1,427 @@
+/* Footer */
+footer {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .logo img {
+  width: 180px;
+}
+
+.box__footer .terms {
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.box__footer h2 {
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 700;
+}
+
+.box__footer a {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.box__footer a:hover {
+  opacity: 0.8;
+}
+
+.box__footer a .fab {
+  font-size: 20px;
+}
+
+.box__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+
+.box__footer hr {
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
+}
+
+
+/* Contenedor y cuerpo */
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.cuerpo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.cont1, .cont2, .cont3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.boton {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #FF9933;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #ffdbb1;
+}
+
+.boton:active {
+  background-color: #CC7700;
+}
+
+.boton-donar:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Historia, Misión y Visión */
+.contenedor {
+  width: 100%;
+}
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+}
+
+#historia, #mision, #vision {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  min-height: 100vh;
+  
+}
+
+#historia h2, #mision h2, #vision h2 {
+  font-size: 24px;
+}
+
+#historia p, #mision p, #vision p {
+  font-size: 16px;
+}
+
+#historia {
+  display: flex;
+  align-items: center;
+}
+
+
+.section1 {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.section2 {
+  flex: 1;
+  text-align: right;
+}
+
+.section2 img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Catálogo de perros */
+.catalogo-perros {
+  text-align: center;
+}
+
+.catalogo-perros h2{
+  margin-top: 10px;
+}
+
+.lista-perros{
+  margin-top: 20px;
+}
+
+.lista-perros {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.lista-perros li {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.lista-perros li img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.lista-perros li h3 {
+  margin-bottom: 10px;
+}
+
+.lista-perros li button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Cuerpo de eventos */
+.cuerpo-evento {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.evento {
+  margin: 5vh;
+max-width: 500px;
+  border: 4px solid #b7fdc2;
+  border-radius:10px;
+  padding: 20px;
+}
+
+.lista-perro {
+  flex-basis: 45%;
+}
+
+
+/* Título de donación */
+.titulo-donacion {
+  width: 80%;
+  text-align: center;
+}
+
+/* Contenedor Nosotros */
+.contenedor-nosotros {
+  max-width: 60%;
+}
+
+/* Formulario de donación */
+.formulario-donacion, .formulario-contacto {
+  margin-top: 20px;
+  width: 50%;
+  align-items: center;
+}
+
+.formulario-donacion label, .formulario-contacto label {
+  font-size: 18px;
+}
+
+.formulario-donacion button, .formulario-contacto button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #FF9933;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.formulario-donacion button:hover, .formulario-contacto button:hover {
+  background-color: #ffdbb1;
+}
+
+.formulario-donacion button:active, .formulario-contacto button:active {
+  background-color: #CC7700;
+}
+
+.formulario-donacion button:active, .formulario-contacto button:active {
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.formulario-donacion, .formulario-contacto {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+#otro-valor-input {
+  margin-top: 20px;
+}
+
+#otro-valor-label {
+  display: none;
+}
+
+#otro-valor-input label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+#otro-valor {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 20%;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  background-color: #27ae60;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:focus {
+  outline: none;
+}
+
+.contenedor-donacion
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formulario-donacion, .formulario-contacto{
+  width: 100%;
+  border: 3px solid #525252;
+  border-radius: 5px;
+}
+
+.texto-donacion
+{
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-donacion p{
+  margin-bottom: 30px;
+}
+
+label{
+margin-top: 15px;
+}
+
+.titulo-donacion h2, .titulo-donacion p{
+margin-bottom: 15px;
+}
+
+.cuerpo{  
+  background-image: linear-gradient(to bottom, white, #e3ffe7,white);
+}
+
+#vision, #mision{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+cite{
+  margin-top: 10px;
+}
+h2, p{
+  margin-top: 10px;
+}
+
+.formulario-contacto{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 15px;
+}
+.formulario-contacto textarea{
+  width: 300px;
+  min-height: 150px;
+}
+.formulario-contacto input{
+  padding: 0px;
+}
+
+
+
+
+
+
+
+  
